@@ -1,0 +1,47 @@
+
+* {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    color: black;
+    font-size: 12pt; 
+    width: 100%; 
+}
+
+
+
+img, nav, iframe {
+    display: none;
+}
+
+body, html {
+    page-break-inside: avoid;
+    background-color: white; 
+}
+a {
+    text-decoration: underline;
+    color: black; 
+}
+
+header, section, article, footer, div{
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+script{
+    display:none;
+}
+.icon-bar{
+    display: none;
+}
+
+
+
+
+
+    
